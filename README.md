@@ -1,4 +1,4 @@
-<B>NOVA PHARMACY   </B>
+# NOVA PHARMACY   
 
 Built with the following Technologies:  <BR>
 -- HTML    <BR>
