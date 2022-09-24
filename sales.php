@@ -42,12 +42,16 @@
 								<tr>
 									<td class="text-center"><?php echo $i++ ?></td>
 									<td class=""><?php echo $row['ref_no'] ?></td>
-									<!-- <td class="">
+									<td class="">
 										<?php
-										 //echo date("M d, Y",strtotime($row['date_updated']))
+										 echo date('M d, Y || h:i a',strtotime($row['date_updated']))
 										  ?>
-									</td> -->  
-									<td class=""><?php echo date($row['date_updated']) ?></td>
+									</td>  
+									<!-- <td class="">
+										<?php 
+										// echo date($row['date_updated'])
+										 ?>
+									</td> -->
 									<td class=""><?php echo isset($cus_arr[$row['customer_id']])? $cus_arr[$row['customer_id']] :'N/A' ?></td>
 									<td class=""><?php echo $row ['total_amount']  ?>.00</td>
 									<td class="text-center">
